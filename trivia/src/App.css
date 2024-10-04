@@ -5,10 +5,16 @@
 }
 
 .app {
-  font-family: Arial, sans-serif;
-  height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+.select {
+
+}
+
+.questions {
+
 }
 
 .navbar {
@@ -59,9 +65,9 @@
   border-radius: 15px;
   text-align: center;
   width: 90%;
-  height: 90%;
+  height: 100%;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  margin-top: -3.5%;
+  margin-bottom: 10%;
 }
 
 .title {
@@ -82,9 +88,9 @@
   border: none;
   border-radius: 10px;
   padding: 20px;
-  margin: 10px;
+  margin-bottom: 3.5%;
   width: calc(30% - 20px);
-  height: 26vh;
+  height: 28vh;
   cursor: pointer;
   transition: background-color 0.3s;
 
@@ -96,7 +102,7 @@
 }
 
 .category-image {
-  width: 37%; 
+  width: 38%; 
   height: 100%; 
   object-fit: contain;
   border-radius: 10px;
