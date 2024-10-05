@@ -2,6 +2,8 @@
 
 This is a very simple trivia fullstack application where users can select between trivia categories and answer trivia questions from the ctegory. The frontend is built using React and hosted on Firebase, while the backend is built using Express and hosted on Vercel. The application is further integrated using Firebase Authentication.
 
+![Trivia App Logo](./app-pic.png)
+
 ## Table of Contents
 - [Installation](#installation)
 - [Technologies Used](#technologies-used)
