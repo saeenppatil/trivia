@@ -1,0 +1,91 @@
+/* Global styles for both Login and Register pages */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #252422;
+  }
+  
+  .form-card {
+    background-color: white; /* Light gray background for the card */
+    padding: 40px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    width: 50%;
+    text-align: center;
+    margin-top: -15%;
+  }
+  
+  h2 {
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 5rem;
+    margin-top: -3.5%;
+    margin-bottom: 7%;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 2.5%;
+    margin-top: 2.5%;
+    border: 1px solid #cccccc; /* Light border */
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: black
+  }
+
+  .label{
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: black
+  }
+  
+  button {
+    width: 60%;
+    padding: 10px;
+    background-color: #007BFF; /* Blue button for login/register */
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  p {
+    margin-top: 10%;
+    color: #666666; 
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+  }
+  
+  p a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  p a:hover {
+    text-decoration: underline;
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 20px;
+  }
+  

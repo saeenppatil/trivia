@@ -2,7 +2,6 @@
     background: #252422;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     color: #ccc;
-    margin-top: -10%;
     padding-top: 10%;
     padding-bottom: 10%;
   }
@@ -41,6 +40,7 @@
     border: 1px solid #ccc;
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
   }
   
   .answer:hover, .answer.selected {
@@ -56,10 +56,11 @@
     color: white;
     background-color: #737371;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    width: 30%;
   }
   
   .end-button:hover {
@@ -74,6 +75,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 3rem;
+    color: white;
   }
 
   .score{
@@ -81,6 +83,8 @@
     font-weight: 600;
     font-size: 2rem;
     margin-bottom: -20px;
+    color: white;
+    padding-top: 5%;
   }
 
   ul {
