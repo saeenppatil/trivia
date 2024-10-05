@@ -1,8 +1,9 @@
 # Trivia Scope 
 
-This is a very simple trivia fullstack application where users can select between trivia categories and answer trivia questions from the ctegory. The frontend is built using React and hosted on Firebase, while the backend is built using Express and hosted on Vercel. The application is further integrated using Firebase Authentication.
+This is a very simple trivia fullstack application where users can select between trivia categories and answer trivia questions from the category. Users can register themselves with their email adress and password create an account that will save their categorical scores (coming soon!).
 
-![Trivia App Logo](./app-pic.png)
+## Website Link
+[Trivia App](https://trivia-f7176.web.app/)
 
 ## Table of Contents
 - [Installation](#installation)
@@ -71,7 +72,7 @@ This is a very simple trivia fullstack application where users can select betwee
 ## Technologies Used
 - **Frontend**: React, TypeScript, Firebase 
 - **Backend**: Node.js, Express, TypeScript, Vercel
-- **Database**: None (uses Open Trivia DB API for trivia questions and answers)
+- **Database**: Uses Open Trivia DB for trivia questions and answers
 - **Styling**: CSS
 
   ![Trivia App Logo](./firebase-pic.png)
