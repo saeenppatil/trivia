@@ -2,6 +2,8 @@
 
 This is a very simple trivia fullstack application where users can select between trivia categories and answer trivia questions from the category. Users can register themselves with their email adress and password create an account that will save their categorical scores (coming soon!).
 
+![Website](./firebase-pic.png)
+
 ## Website Link
 [Trivia App](https://trivia-f7176.web.app/)
 
@@ -75,7 +77,7 @@ This is a very simple trivia fullstack application where users can select betwee
 - **Database**: Uses Open Trivia DB for trivia questions and answers
 - **Styling**: CSS
 
-  ![Trivia App Logo](./firebase-pic.png)
+  ![Firenase](./firebase-pic.png)
 
 
 ---
