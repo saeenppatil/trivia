@@ -74,6 +74,8 @@ This is a very simple trivia fullstack application where users can select betwee
 - **Database**: None (uses Open Trivia DB API for trivia questions and answers)
 - **Styling**: CSS
 
+  ![Trivia App Logo](./firebase-pic.png)
+
 
 ---
 
