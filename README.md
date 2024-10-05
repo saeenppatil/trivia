@@ -111,7 +111,7 @@ Fetches medium difficulty trivia questions for the given `categoryId` that align
 
 - ### `POST /api/trivia/:sessionId/:categoryId/:score`
 
-- To store the highest scores for users based on category and makes the experience more interactive. 
+- Database: To store the highest scores for users based on category and makes the experience more interactive. 
 
 
  ---
