@@ -12,7 +12,7 @@ This is a very simple trivia fullstack application where users can select betwee
 - [Technologies Used](#technologies-used)
 - [Architecture](#architecture)
 - [API Endpoints](#api-endpoints)
-- [Future Enhancements](#future-enhancements) (if applicable)
+- [Future Enhancements](#future-enhancements)
 
 ---
 
