@@ -9,7 +9,7 @@ This is a very simple trivia fullstack application where users can select betwee
 - [Technologies Used](#technologies-used)
 - [Architecture](#architecture)
 - [API Endpoints](#api-endpoints)
-- [Database (Future Prospects)](#database) (if applicable)
+- [Future Enhancements](#future-enhancements) (if applicable)
 
 ---
 
@@ -104,7 +104,7 @@ Fetches medium difficulty trivia questions for the given `categoryId` that align
  ---
 
  
-## Database Schema
+## Future Enhancements  
 
 This app does not use a database at the moment. I do hope to integrate the application with the Firebase Realtime Database so that it can store the highest scores for users based on category and makes the experience more interactive. 
 
