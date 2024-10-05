@@ -1,6 +1,6 @@
 # Trivia Scope 
 
-This is a very simple trivia fullstack application where users can select between trivia categories and answer trivia questions from the category. Users can register themselves with their email adress and password create an account that will save their categorical scores (coming soon!).
+This is a very simple trivia fullstack application where users can select between trivia categories and answer trivia questions from the category. Users can register themselves with their email adress and password. Features to save user categorical scores (coming soon!).
 
 ![Website](./app-pic.png)
 
@@ -109,7 +109,9 @@ Fetches medium difficulty trivia questions for the given `categoryId` that align
  
 ## Future Enhancements  
 
-This app does not use a database at the moment. I do hope to integrate the application with the Firebase Realtime Database so that it can store the highest scores for users based on category and makes the experience more interactive. 
+- ### `POST /api/trivia/:sessionId/:categoryId/:score`
+
+- To store the highest scores for users based on category and makes the experience more interactive. 
 
 
  ---
