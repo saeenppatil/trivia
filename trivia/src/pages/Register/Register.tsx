@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import AuthService from '../../services/AuthService';
-import './Register.css'; // Make sure to link this to your CSS file
+import './Register.css'; 
 
 const Register = () => {
   const [email, setEmail] = useState<string>('');
@@ -50,7 +50,7 @@ const Register = () => {
           <button type="submit">Register</button>
         </form>
         <p>Already have an account?</p>
-        <button onClick={handleLoginNavigation}>Login</button> {/* Button for navigation to login page */}
+        <button onClick={handleLoginNavigation}>Login</button> {}
       </div>
     </div>
   );
