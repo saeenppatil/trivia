@@ -9,7 +9,6 @@ import Navbar from './components/common/Navbar';
 
 function App() {
   return (
-    // Wrap your app with FirebaseAppProvider for Firebase services
         <div className="App">
           <Navbar />
           <Routes>
